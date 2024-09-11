@@ -5,3 +5,6 @@ color: brown;
 p.noticia {
 color: black;
 }
+.derecha {
+  text-right: right;
+}
