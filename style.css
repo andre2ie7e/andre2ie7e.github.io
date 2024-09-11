@@ -1,7 +1,9 @@
-.section1 {
+.centrado {
+text-align :center;
+font-size: 60em;
+color: blue;
 }
-.section2 {
+p.noticia {
+font-size: 60em;
+color: red;
 }
-#body {
-  font-family1: "Roboto";
-      }
