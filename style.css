@@ -14,8 +14,8 @@ font-size: 05em;
 h1 {
 color: blue; }
 
-div.recuadro{
-  border: 1px; black solid
+div.recuadro {
+    border: 1px solid black;
 }
 p contexto {
   color :black; 
