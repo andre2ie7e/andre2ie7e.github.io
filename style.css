@@ -1,10 +1,13 @@
 .centrado {
+font-size: 05em;
 text-align :center;
 color: brown;
 }
 p.noticia {
-color: black;
+font-size: 05em;  
+color: red;
 }
-.derecha {
-  text-right: right;
+.#titulo {
+font-size: 05em;
+  color: green;
 }
