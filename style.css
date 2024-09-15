@@ -3,20 +3,14 @@ font-size: 3em;
 text-align :center;
 color: purple;
 }
-p noticia {
-font-size: 05em;  
-color: black;
-}
-# titulo {
+
+#titulo {
 font-size: 05em;
   color: green;
 }
 
 div.recuadro {
     border: 1px solid black;
-}
-p contexto {
-  color :brown; 
 }
 
 .centrado-2 {
