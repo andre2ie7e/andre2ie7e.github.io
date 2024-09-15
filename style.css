@@ -20,3 +20,9 @@ div.recuadro {
 p contexto {
   color :brown; 
 }
+
+.centrado-2 {
+  font-size: 3em;
+text-align :center;
+color: darkblue;
+}
