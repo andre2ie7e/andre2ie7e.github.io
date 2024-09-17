@@ -18,3 +18,10 @@ div.recuadro {
 text-align: center;
 color: darkblue;
 }
+
+.h1{
+  background-image:url('banner.gif');
+  background-repeat: no-repeat;
+  background-position_ right top;
+  bakground-attachment: fixed;
+}
