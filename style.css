@@ -18,8 +18,8 @@ div.recuadro {
 text-align: center;
 color: darkblue;
 }
-div.bar {
-      background-image:url('BARRAS.png');
+.bar {
+      background-image:url('BARRAS.png'); width:100px; height:20px
       background-image: no-repeat;
       background-image: right top;
       background-image: scroll; 
