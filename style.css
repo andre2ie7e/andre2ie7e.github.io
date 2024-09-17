@@ -23,5 +23,5 @@ color: darkblue;
   background-image:url('BARRAS.png');
   background-repeat: no-repeat;
   background-position_: right top;
-  bakground-attachment: fixed;
+  bakground-attachment: scroll;
 }
