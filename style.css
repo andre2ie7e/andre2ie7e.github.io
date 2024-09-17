@@ -19,7 +19,7 @@ text-align: center;
 color: darkblue;
 }
 .bar {
-      background-image:url('BARRAS.png'); width:100px; height:20px
+      background-image:url('BARRAS.png'); 
       background-image: no-repeat;
       background-image: right top;
       background-image: scroll; 
