@@ -44,7 +44,7 @@ div.figura2 {
 div.figura3 {
   padding: 24px 12px;
   border: 1px solid black; 
-  background-color: green; 
+  background-image:url('paisaje.png'); 
 }
 
 *{
