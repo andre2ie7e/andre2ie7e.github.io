@@ -19,7 +19,7 @@ div.recuadro {
   border: 1px solid black; 
   background-color: yellow; 
   background-attachment: scroll;
-  float: left;
+  float: none;
 }
 
 .centrado-2 {
