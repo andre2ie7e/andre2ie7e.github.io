@@ -16,7 +16,8 @@ font-size: 05em;
 }
 
 div.recuadro {
-  background-image:url('paisaje.png';  padding: 24px 12px;);
+  background-image:url('paisaje.png'; 
+  padding: 24px 12px;
   border: 1px solid black; 
   background-color: yellow; 
   background-attachment: scroll;
