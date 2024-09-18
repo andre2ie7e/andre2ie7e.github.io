@@ -2,7 +2,10 @@
 font-size: 3em;
 text-align: center;
 color: brown;
-padding: 5em 3em 10em 7em;
+}
+
+.centro {
+  padding: 5em 3em 10em 7em;
 background-color: blue;
 }
 
