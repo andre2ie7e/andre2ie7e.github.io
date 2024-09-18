@@ -12,7 +12,8 @@ font-size: 05em;
 }
 
 div.recuadro {
-    border: 1px solid black;
+  border: 1px solid black; padding: 24px 12px;
+  background-color: yellow; 
 }
 
 .centrado-2 {
