@@ -20,7 +20,7 @@ div.recuadro {
   padding: 24px 12px;
   border: 1px solid black; 
   background-color: yellow; 
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 .centrado-2 {
