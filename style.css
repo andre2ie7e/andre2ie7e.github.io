@@ -17,10 +17,11 @@ font-size: 05em;
 div.recuadro {
   border: 1px solid black; padding: 24px 12px;
   background-color: yellow; 
+  backfround-attachment: scrooll;
 }
 
 .centrado-2 {
-  font-size: 3em;
+font-size: 3em;
 text-align: center;
 color: darkblue;
 }
