@@ -19,7 +19,7 @@ div.recuadro {
   background-image:url('paisaje.png'); 
   padding: 24px 12px;
   border: 1px solid black; 
-  background-color: LightSteelBlack;
+  background-color: Yellow;
   background-attachment: scroll;
 }
 
@@ -32,20 +32,19 @@ color: darkblue;
 div.figura1{
   padding: 24px 12px;
   border: 1px solid black; 
-  background-color: LightSteelOrange;
+  background-color: Orange;
 }
 
 div.figura2 {
   padding: 24px 12px;
   border: 1px solid black; 
-  background-color: LightSteelPink; 
+  background-color: Pink; 
 }
 
 div.figura3 {
   padding: 24px 12px;
   border: 1px solid black; 
-  background-image:url('paisaje.png'); 
-}
+  }
 
 
   
