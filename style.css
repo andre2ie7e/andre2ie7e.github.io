@@ -44,6 +44,32 @@ div.figura2 {
 div.figura3 {
   padding: 24px 12px;
   border: 1px solid black; 
+  background-color: Green; 
+  }
+div.figura4 {
+  padding: 24px 12px;
+  border: 1px solid black; 
+  background-color: Purple; 
+  }
+div.figura5 {
+  padding: 24px 12px;
+  border: 1px solid black; 
+  background-color: Brown; 
+  }
+div.figura6 {
+  padding: 24px 12px;
+  border: 1px solid black; 
+  background-color: Blue; 
+  }
+div.figura7 {
+  padding: 24px 12px;
+  border: 1px solid black; 
+  background-color: White; 
+  }
+div.figura8 {
+  padding: 24px 12px;
+  border: 1px solid black; 
+  background-color: none; 
   }
 
 
