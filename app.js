@@ -6,8 +6,20 @@ let indefinido;
 let undef= undefined;
 let nulo= null;
 
-let precios = [429.99, 229.99, 59.00]; // Precios de los productos
-        let suma = precios.reduce((total, precio) => total + precio, 0);
-        document.getElementById("sumaPrecios").textContent = 'S/.' + suma.toFixed(2);
+const checkboxes = document.querySelectorAll('.precio-checkbox');
+        const sumaPrecios = document.getElementById('sumaPrecios');
 
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', actualizarSuma);
+        });
+
+        function actualizarSuma() {
+            let total = 0;
+            checkboxes.forEach(checkbox => {
+                if (checkbox.checked) {
+                    total += parseFloat(checkbox.getAttribute('data-precio'));
+                }
+            });
+            sumaPrecios.textContent = 'S/.' + total.toFixed(2);
+        }
 
