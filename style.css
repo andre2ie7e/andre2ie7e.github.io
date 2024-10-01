@@ -80,7 +80,6 @@ div.figura8 {
 #Productos {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start; 
 }
 
 .producto {
