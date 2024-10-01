@@ -77,9 +77,10 @@ div.figura8 {
   background-color: golden; 
   }
 
-#producots {
+#productos {
   display: flex;
-  felx-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: flex-start; 
 }
 
 .producto {
