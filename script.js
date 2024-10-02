@@ -19,3 +19,4 @@ carrito.forEach(item => {
 
 document.getElementById('total').textContent = `Total: $${total.toFixed(2)}`;
 }
+
