@@ -34,7 +34,7 @@
             <ul>
                <li><a href="https://antonioperu.com/products/nike-m2k-tekno" target="_blank">NOVEDADES</a></li>
                <li><a href="https://www.falabella.com.pe/falabella-pe/category/cat1470548/Zapatillas">OFERTAS</a></li>
-               <li><a href="https://www.instagram.com/andres2ie7e/">ZAPATILLAS</a></li>
+               <li><a href="#carrito">ZAPATILLAS</a></li>
                <li><a href="https://www.adidas.pe/">SERVICIOS</a></li>
             </ul>
          </nav>
@@ -60,11 +60,7 @@
   </body>
    <body>
    <h1 class="centrado"></h1>
-
-           <p id="mensaje" style= "color: red;">Zapatillas Acliclas lo mejor para tu estilo</p>
            <script>
-            document.getElementById('mensaje').innerHTML="Acliclas";
-            document.write("<div style='background-color:#776199;'>Porque te acompañamos a cada parte de tu viaje</div>");
             window.alert('Acliclas te da la bienvenida');
             console.log('Mensaje en la consola del navegador');
             </script>
@@ -164,13 +160,16 @@
     </body>
 <body>
     <body>
+      <div id="carrito"></div>
         <h1 class="centrado">Modelos</h1> 
     </body>
 <script>
    //ANDRES
 </script>
     <body>
-            <h1>Carrito de Compras</h1>
+    
+      <h1>Carrito de Compras</h1>
+     
     <div id="Productos">
         <div class="producto">
             <img src="zapatilla1.jpg" alt="Producto 1">
@@ -179,7 +178,7 @@
             <button onclick="agregarAlCarrito('Producto 1', 10)">Agregar al carrito</button>
             <button onclick="abrirVentana('Bortex', 'zapatilla1.jpg', '$429.99')">Ver más</button>
           <label>
-            <input type="checkbox" name="producto" value="Producto 1">
+            <input type="checkbox" name="producto" value="429.99">
         </label><br>
         </div>
 
@@ -190,7 +189,7 @@
             <button onclick="agregarAlCarrito('Producto 2', 10)">Agregar al carrito</button>
             <button onclick="abrirVentana('Zumba', 'zapatilla2.jpg', '$229.99')">Ver más</button>
               <label>
-            <input type="checkbox" name="producto" value="Producto 2">
+            <input type="checkbox" name="producto" value="229.99">
         </label><br>
         </div>
 
@@ -201,7 +200,7 @@
             <button onclick="agregarAlCarrito('Producto 3', 10)">Agregar al carrito</button>
             <button onclick="abrirVentana('Air 69 mk tecno', 'zapatilla3.jpg', '$529.99')">Ver más</button>
               <label>
-            <input type="checkbox" name="producto" value="Producto 3">
+            <input type="checkbox" name="producto" value="529.99">
         </label><br>
         </div>
 
@@ -212,7 +211,7 @@
             <button onclick="agregarAlCarrito('Producto 4', 10)">Agregar al carrito</button>
             <button onclick="abrirVentana('Blue amazon', 'zapatilla4.jpg', '$599.99')">Ver más</button>
               <label>
-            <input type="checkbox" name="producto" value="Producto 4">
+            <input type="checkbox" name="producto" value="599.99">
         </label><br>
         </div>
 
@@ -224,7 +223,7 @@
             <button onclick="abrirVentana('Super moonler', 'zapatilla5.jpg', '$369.99')">Ver más</button>
             
               <label>
-            <input type="checkbox" name="producto" value="Producto 5">
+            <input type="checkbox" name="producto" value="369.99">
         </label><br>
         </div>
 
@@ -235,7 +234,7 @@
             <button onclick="agregarAlCarrito('Producto 6', 10)">Agregar al carrito</button>
             <button onclick="abrirVentana('Inverso 99', 'zapatilla6.jpg', '$269.99')">Ver más</button>
               <label>
-            <input type="checkbox" name="producto" value="Producto 6">
+            <input type="checkbox" name="producto" value="269.99">
         </label><br>
         </div>
 
@@ -246,7 +245,7 @@
             <button onclick="agregarAlCarrito('Producto 7', 10)">Agregar al carrito</button>
             <button onclick="abrirVentana('Boolers', 'zapatilla7.jpg', '$569.99')">Ver más</button>
               <label>
-            <input type="checkbox" name="producto" value="Producto 7">
+            <input type="checkbox" name="producto" value="569.99">
         </label><br>
         </div>
 
@@ -257,7 +256,7 @@
             <button onclick="agregarAlCarrito('Producto 8', 10)">Agregar al carrito</button>
             <button onclick="abrirVentana('M2k tresno', 'zapatilla8.jpg', '$469.99')">Ver más</button>
               <label>
-            <input type="checkbox" name="producto" value="Producto 8">
+            <input type="checkbox" name="producto" value="469.99">
         </label><br>
         </div>
 
@@ -268,7 +267,7 @@
             <button onclick="agregarAlCarrito('Producto 9', 10)">Agregar al carrito</button>
             <button onclick="abrirVentana('Old buffalo', 'zapatilla9.jpg', '$669.99')">Ver más</button>
               <label>
-            <input type="checkbox" name="producto" value="Producto 9">
+            <input type="checkbox" name="producto" value="669.99">
         </label><br>
         </div>
 
@@ -279,19 +278,14 @@
             <button onclick="agregarAlCarrito('Producto 10', 10)">Agregar al carrito</button>
             <button onclick="abrirVentana('Yaguar yankees', 'zapatilla10.jpg', '$539.99')">Ver más</button>
               <label>
-            <input type="checkbox" name="producto" value="Producto 10">
+            <input type="checkbox" name="producto" value="539.99">
         </label><br>
-            <button type="button" onclick="mostrarSeleccion()">Ver Selección</button>
+            
         </div>
-    </form>
-    <div id="resultado"></div>
-           <script>
-        function mostrarSeleccion() {
-            const checkboxes = document.querySelectorAll('input[name="producto"]:checked');
-            const seleccion = Array.from(checkboxes).map(checkbox => checkbox.value);
-            document.getElementById('resultado').innerText = 'Productos seleccionados: ' + seleccion.join(', ');
-        }       
-           </script>
+    <div class="costo-total">
+      <h3>Costo Total:</h3>
+      <p id="totalPrecio">$0.00</p>
+    </div>
     <body>
     <script>
       //FIN ANDRES

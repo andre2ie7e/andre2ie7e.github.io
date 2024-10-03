@@ -7,38 +7,46 @@ font: comic sans;
 
 div.figura1{
   padding: 24px 12px;
-  background-color: Orange;
+  background-color: ghostwhite;
 }
 
 div.figura2 {
   padding: 24px 12px;
-  background-color: Pink; 
+  background-color: silver; 
 }
 
 div.figura3 {
   padding: 24px 12px;
-  background-color: Green; 
+  background-color: seashell; 
   }
 
 div.figura4 {
   padding: 24px 12px;
-  background-color: Purple; 
+  background-color: rgb(204, 204, 204); 
   }
 
 div.figura5 {
   padding: 24px 12px; 
-  background-color: Brown; 
+  background-color: #292929; 
   }
 
 div.figura6 {
   padding: 24px 12px;
-  background-color: Blue; 
+  background-color: gainsboro; 
   }
 
 div.figura7 {
   padding: 24px 12px; 
   background-color: White; 
   }
+
+  .costo-total {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid lightgray;
+    font-size: 25px;
+    margin-top: 20px;
+}  
 
 #Productos {
   display: flex;
