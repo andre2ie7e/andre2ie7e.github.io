@@ -284,8 +284,8 @@
       <h3>Costo Total:</h3>
       <p id="totalPrecio">$0.00</p>
     </div> 
-       <body>
-<div id="totalPrecio"></div>
+ <body>
+<div id="totalprecio"></div>
 <script>
 var valor1 = 429.99
 var valor2 = 229.99
@@ -297,15 +297,17 @@ var valor7 = 569.99
 var valor8 = 469.99
 var valor9 = 699.99
 var valor10 = 539.99
-var calculo = valor1 + valor2 + valor3 + valor4 + valor5 + valor6 + valor7 + valor8 + valor9 + valor10;
-document.getElementById(´Total Precio´).InnerHTML="totalPrecio: "+calculo;
-if(checkbox1 = onclick){
+var calculo = valor1 + valor2 + valor3 + valor4 + valor5 + valor6 + valor7 + valor8 + valor9 + valor10
+document.getElementById(´Total Precio´).InnerHTML="totalprecio: "+calculo;
+
+if (document.getElementById('checkbox1').checked) {
 document.write("calculo<br>");
 } else {
-document.write(onclick<br>)
+document.write("onclick<br>");
 }
 </script>
-   </body>
+</body>
+      
     <script>
       //FIN ANDRES
    </script>
