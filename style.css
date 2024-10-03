@@ -5,76 +5,39 @@ color: brown;
 font: comic sans;
 }
 
-.centro {
-padding: 5em 3em 10em 7em;
-background-color: blue;
-}
-
-#titulo {
-font-size: 05em;
-  color: green;
-}
-
-div.recuadro {
-  background-image:url('paisaje.png'); 
-  padding: 24px 12px;
-  border: 1px solid black; 
-  background-color: Yellow;
-  background-attachment: scroll;
-}
-
-.centrado-2 {
-font-size: 25px;
-text-align: center;
-color: darkblue;
-}
-
 div.figura1{
   padding: 24px 12px;
-  border: 1px solid black; 
   background-color: Orange;
 }
 
 div.figura2 {
   padding: 24px 12px;
-  border: 1px solid black; 
   background-color: Pink; 
 }
 
 div.figura3 {
   padding: 24px 12px;
-  border: 1px solid black; 
   background-color: Green; 
   }
 
 div.figura4 {
   padding: 24px 12px;
-  border: 1px solid black; 
   background-color: Purple; 
   }
 
 div.figura5 {
-  padding: 24px 12px;
-  border: 1px solid black; 
+  padding: 24px 12px; 
   background-color: Brown; 
   }
 
 div.figura6 {
   padding: 24px 12px;
-  border: 1px solid black; 
   background-color: Blue; 
   }
 
 div.figura7 {
-  padding: 24px 12px;
-  border: 1px solid black; 
+  padding: 24px 12px; 
   background-color: White; 
-  }
-
-div.figura8 {
-  padding: 24px 12px;
-  border: 1px solid black; 
-  background-color: golden; 
   }
 
 #Productos {
@@ -93,21 +56,31 @@ div.figura8 {
 
 .producto img {
   max-width: 100%
-  }
+}
 
-  nav {
-    background-color: rgb(53, 3, 82);
-    padding: 10px;
+nav {
+  background-color: rgb(38, 38, 38);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  padding-right: 40px;
 }
 
 nav ul li {
-    display: inline;
     margin-right: 20px;
+    color: white;
+    font-weight: bold;
 }
 
 nav ul li a {
@@ -117,6 +90,49 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
+/* Rodrigo */    
+    color:#f39c12
 }
 
+body {
+  margin-top: 110px;
+}
 
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+
+}
+
+.imagen-lado img {
+  border: 1px solid black;
+  height:100%;
+  margin: 0;
+  
+}
+
+.texto-lado {
+  display: flex;
+  align-items: center;
+}
+
+.recuadro-gris {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid lightgray;
+  height: 92%;
+  font-size:25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#inicio {
+  margin-top: -800px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
