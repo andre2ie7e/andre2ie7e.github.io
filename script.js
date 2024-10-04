@@ -43,3 +43,17 @@ const checkboxes = document.querySelectorAll('.precio-checkbox');
             });
             sumaPrecios.textContent = 'S/.' + total.toFixed(2);
         }
+        
+        document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+          checkbox.addEventListener('change', actualizarTotal);
+        });
+        
+        function actualizarTotal() {
+          let total = 0;
+        
+          document.querySelectorAll('input[type="checkbox"]:checked').forEach(checkbox => {
+            total += parseFloat(checkbox.value);
+          });
+        
+          document.getElementById('resultadototal').innerHTML = `Total: $${total.toFixed(2)}`;
+        }        
