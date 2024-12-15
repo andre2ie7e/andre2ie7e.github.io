@@ -148,8 +148,10 @@ div class{
 /*IMAGEN DE FONDO PARA LA PAGINA*/
 
 body {
-    background-image: url('C:\Users\user\Documents\Optimus Bee\optimus1.jpg');
+    background-image: url('images/optimus1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
 }
