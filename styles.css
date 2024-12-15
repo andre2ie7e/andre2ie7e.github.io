@@ -7,13 +7,104 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: blue;
+    background-color: whitesmoke;
 }
 
 /* estilos de la barra de menu broder*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    z-index: 1000;
+}
+
+.navbar .logo a {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar .menu {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .menu li {
+    margin: 0 15 px;
+}
+
+.navbar .menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .menu li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: wheat;
+    margin: 4px 0;
+}
+
+@media (max-width: 768px) {
+    .navbar .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+    }
+}
+
+.navbar .menu {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.menu .toggle {
+    display: flex;
+}
+
+.navbar.menu.active {
+    display: flex;
+}
+
+/*seccion de contenido */
+section {
+    padding: 60px 20px;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
 
 .menu { 
-    background-color: blueviolet;
+    background-color: transparent;
     position: fixed;
     top: 0;
     width: 100%;
