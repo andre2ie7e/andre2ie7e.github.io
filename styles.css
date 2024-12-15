@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -45,4 +46,10 @@ body {
 .menu a:hover {
     background-color: aqua;
     border-radius: 5px;
+}
+
+div class{
+    text-align: center;
+    text-decoration-color: brown;
+    text-shadow: none;
 }
