@@ -3,4 +3,7 @@ h4 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     text-shadow: gray;
+    text-emphasis-color: green;
+    -moz-text-decoration-color: aquamarine;
+    
 }
