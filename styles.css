@@ -144,3 +144,12 @@ div class{
     text-decoration-color: brown;
     text-shadow: none;
 }
+
+/*IMAGEN DE FONDO PARA LA PAGINA*/
+
+body {
+    background-image: url('optimus1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
