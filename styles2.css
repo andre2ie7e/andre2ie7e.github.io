@@ -1,15 +1,14 @@
 h2 {
-    font-size: 38px;
+    font-size: 35px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: left;
+    text-align: center;
     text-shadow: rgb(255, 255, 255);
     text-emphasis-color: yellow;
 }
 
-h3 {
-    font-size: 58;
+p {
+    font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-    text-shadow: black;
+    text-shadow: gray;
     text-emphasis-color: yellow;
-}
+} 
