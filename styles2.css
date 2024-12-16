@@ -12,3 +12,14 @@ p {
     text-shadow: gray;
     text-emphasis-color: yellow;
 } 
+
+/* FONDO DE PANTALLA*/
+
+body {
+    background-image: url('images/opbee.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
